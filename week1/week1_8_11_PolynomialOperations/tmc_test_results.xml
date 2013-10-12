@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-27 14:08:03</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:94</fn>
+      <id>adding_fractions_with_same_denominator_works</id>
+      <iteration>0</iteration>
+      <description>adding_fractions_with_same_denominator_works</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:108</fn>
+      <id>adding_fractions_with_another_input</id>
+      <iteration>0</iteration>
+      <description>adding_fractions_with_another_input</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:122</fn>
+      <id>adding_fractions_causes_simplification</id>
+      <iteration>0</iteration>
+      <description>adding_fractions_causes_simplification</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:129</fn>
+      <id>adding_fractions_with_zero_denominator_gives_error</id>
+      <iteration>0</iteration>
+      <description>adding_fractions_with_zero_denominator_gives_error</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:141</fn>
+      <id>adding_one_fifth_to_one_tenth_should_produce_three_tenths</id>
+      <iteration>0</iteration>
+      <description>adding_one_fifth_to_one_tenth_should_produce_three_tenths</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:154</fn>
+      <id>adding_two_negative_signed_fractions_works_with_first_argument_negatives</id>
+      <iteration>0</iteration>
+      <description>adding_two_negative_signed_fractions_works_with_first_argument_negatives</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:167</fn>
+      <id>adding_two_negative_signed_fractions_with_both_argument_negatives</id>
+      <iteration>0</iteration>
+      <description>adding_two_negative_signed_fractions_with_both_argument_negatives</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:180</fn>
+      <id>adding_a_positive_value_to_a_larger_negative_value_keeps_result_negative</id>
+      <iteration>0</iteration>
+      <description>adding_a_positive_value_to_a_larger_negative_value_keeps_result_negative</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:200</fn>
+      <id>subtracting_fractions_with_same_denominator_works</id>
+      <iteration>0</iteration>
+      <description>subtracting_fractions_with_same_denominator_works</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:213</fn>
+      <id>subtracting_fractions_causes_simplification</id>
+      <iteration>0</iteration>
+      <description>subtracting_fractions_causes_simplification</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:220</fn>
+      <id>subtracting_fractions_with_zero_denominator_gives_error</id>
+      <iteration>0</iteration>
+      <description>subtracting_fractions_with_zero_denominator_gives_error</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:235</fn>
+      <id>subtraction_with_second_negative_argument_works</id>
+      <iteration>0</iteration>
+      <description>subtraction_with_second_negative_argument_works</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:251</fn>
+      <id>subtraction_with_both_values_negative</id>
+      <iteration>0</iteration>
+      <description>subtraction_with_both_values_negative</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:271</fn>
+      <id>multiplication_should_produce_correct_result_when_not_simplifying</id>
+      <iteration>0</iteration>
+      <description>multiplication_should_produce_correct_result_when_not_simplifying</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:284</fn>
+      <id>multiplication_should_simplify_when_possible</id>
+      <iteration>0</iteration>
+      <description>multiplication_should_simplify_when_possible</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:291</fn>
+      <id>multiplication_should_fail_when_there_is_a_zero_denominator</id>
+      <iteration>0</iteration>
+      <description>multiplication_should_fail_when_there_is_a_zero_denominator</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:304</fn>
+      <id>multiplication_with_one_negative_parameter_gives_negative_result</id>
+      <iteration>0</iteration>
+      <description>multiplication_with_one_negative_parameter_gives_negative_result</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:320</fn>
+      <id>multiplication_with_both_negative_parameters_gives_positive_result</id>
+      <iteration>0</iteration>
+      <description>multiplication_with_both_negative_parameters_gives_positive_result</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:340</fn>
+      <id>division_should_produce_correct_result_when_not_simplifying</id>
+      <iteration>0</iteration>
+      <description>division_should_produce_correct_result_when_not_simplifying</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:353</fn>
+      <id>divison_should_simplify_when_possible</id>
+      <iteration>0</iteration>
+      <description>divison_should_simplify_when_possible</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:360</fn>
+      <id>division_should_not_work_when_there_is_a_zero_denominator</id>
+      <iteration>0</iteration>
+      <description>division_should_not_work_when_there_is_a_zero_denominator</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:375</fn>
+      <id>division_with_one_negative_parameter_gives_negative_result</id>
+      <iteration>0</iteration>
+      <description>division_with_one_negative_parameter_gives_negative_result</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:390</fn>
+      <id>division_with_both_negative_parameters_gives_positive_result</id>
+      <iteration>0</iteration>
+      <description>division_with_both_negative_parameters_gives_positive_result</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:185</fn>
+      <id>test_adding_fractions_with_hidden_data_when_on_server</id>
+      <iteration>0</iteration>
+      <description>test_adding_fractions_with_hidden_data_when_on_server</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:256</fn>
+      <id>test_subtraction_with_hidden_data_when_on_server</id>
+      <iteration>0</iteration>
+      <description>test_subtraction_with_hidden_data_when_on_server</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:325</fn>
+      <id>test_multiplication_with_hidden_data_when_on_server</id>
+      <iteration>0</iteration>
+      <description>test_multiplication_with_hidden_data_when_on_server</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:395</fn>
+      <id>test_division_with_hidden_data_when_on_server</id>
+      <iteration>0</iteration>
+      <description>test_division_with_hidden_data_when_on_server</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

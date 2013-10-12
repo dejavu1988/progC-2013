@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-23 23:21:13</datetime>
+  <suite>
+    <title>Tests</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:79</fn>
+      <id>test_create_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_create_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:98</fn>
+      <id>test_find_from_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_find_from_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:117</fn>
+      <id>test_that_find_actually_searches_layers_above</id>
+      <iteration>0</iteration>
+      <description>test_that_find_actually_searches_layers_above</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:134</fn>
+      <id>test_decide_level</id>
+      <iteration>0</iteration>
+      <description>test_decide_level</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:157</fn>
+      <id>test_insertion_to_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:182</fn>
+      <id>test_insertion_to_beginning_of_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_beginning_of_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:206</fn>
+      <id>test_insertion_to_tail_of_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_tail_of_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:227</fn>
+      <id>test_insertion_to_empty_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_empty_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:245</fn>
+      <id>test_deletion_from_beginning_of_skip_list_in_two_layers</id>
+      <iteration>0</iteration>
+      <description>test_deletion_from_beginning_of_skip_list_in_two_layers</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:269</fn>
+      <id>test_deletion_from_tail_of_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_deletion_from_tail_of_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:297</fn>
+      <id>test_deletion_from_middle_of_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_deletion_from_middle_of_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:313</fn>
+      <id>test_reconstruct_skip_list</id>
+      <iteration>0</iteration>
+      <description>test_reconstruct_skip_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_skiplist.c:327</fn>
+      <id>test_reconstruct_with_large_list</id>
+      <iteration>0</iteration>
+      <description>test_reconstruct_with_large_list</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

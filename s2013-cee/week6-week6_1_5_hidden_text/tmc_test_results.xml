@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-10-11 14:00:30</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_hidden_text.c:15</fn>
+      <id>test_read_lsb</id>
+      <iteration>0</iteration>
+      <description>test_read_lsb</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_hidden_text.c:25</fn>
+      <id>test_extract_byte</id>
+      <iteration>0</iteration>
+      <description>test_extract_byte</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_hidden_text.c:34</fn>
+      <id>test_read_uint32</id>
+      <iteration>0</iteration>
+      <description>test_read_uint32</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_hidden_text.c:42</fn>
+      <id>test_read_pixel_offset</id>
+      <iteration>0</iteration>
+      <description>test_read_pixel_offset</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_hidden_text.c:66</fn>
+      <id>test_read_msg</id>
+      <iteration>0</iteration>
+      <description>test_read_msg</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

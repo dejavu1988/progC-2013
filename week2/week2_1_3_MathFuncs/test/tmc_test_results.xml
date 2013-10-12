@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-26 16:51:15</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:28</fn>
+      <id>save_sum_sets_value_correctly_for_z</id>
+      <iteration>0</iteration>
+      <description>save_sum_sets_value_correctly_for_z</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:36</fn>
+      <id>average_works_for_one_number</id>
+      <iteration>0</iteration>
+      <description>average_works_for_one_number</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:45</fn>
+      <id>average_works_for_two_positive_numbers</id>
+      <iteration>0</iteration>
+      <description>average_works_for_two_positive_numbers</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:54</fn>
+      <id>average_works_when_it_has_negative_arguments</id>
+      <iteration>0</iteration>
+      <description>average_works_when_it_has_negative_arguments</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:66</fn>
+      <id>average_works_with_four_arguments</id>
+      <iteration>0</iteration>
+      <description>average_works_with_four_arguments</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:80</fn>
+      <id>subsum_does_insert_a_two_in_the_array</id>
+      <iteration>0</iteration>
+      <description>subsum_does_insert_a_two_in_the_array</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:93</fn>
+      <id>subsum_inserts_to_later_middle_index_when_array_of_even_size</id>
+      <iteration>0</iteration>
+      <description>subsum_inserts_to_later_middle_index_when_array_of_even_size</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:103</fn>
+      <id>subsum_should_return_two_when_given_an_array_with_only_zeros</id>
+      <iteration>0</iteration>
+      <description>subsum_should_return_two_when_given_an_array_with_only_zeros</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:116</fn>
+      <id>subsum_should_work_with_more_complex_example</id>
+      <iteration>0</iteration>
+      <description>subsum_should_work_with_more_complex_example</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:130</fn>
+      <id>subsum_should_work_with_another_more_complex_example</id>
+      <iteration>0</iteration>
+      <description>subsum_should_work_with_another_more_complex_example</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_mathfuncs.c:134</fn>
+      <id>test_subsum_with_hidden_examples</id>
+      <iteration>0</iteration>
+      <description>test_subsum_with_hidden_examples</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

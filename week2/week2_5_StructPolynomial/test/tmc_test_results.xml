@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-26 17:58:19</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:22</fn>
+      <id>adding_fractions_with_same_denominator_works</id>
+      <iteration>0</iteration>
+      <description>adding_fractions_with_same_denominator_works</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:31</fn>
+      <id>adding_fractions_causes_simplification</id>
+      <iteration>0</iteration>
+      <description>adding_fractions_causes_simplification</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:40</fn>
+      <id>adding_fractions_with_zero_denominator_gives_error</id>
+      <iteration>0</iteration>
+      <description>adding_fractions_with_zero_denominator_gives_error</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:49</fn>
+      <id>adding_one_fifth_to_one_tenth_should_produce_three_tenths</id>
+      <iteration>0</iteration>
+      <description>adding_one_fifth_to_one_tenth_should_produce_three_tenths</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:67</fn>
+      <id>adding_two_negative_signed_fractions_with_both_argument_negatives</id>
+      <iteration>0</iteration>
+      <description>adding_two_negative_signed_fractions_with_both_argument_negatives</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:58</fn>
+      <id>adding_two_negative_signed_fractions_works_with_first_argument_negatives</id>
+      <iteration>0</iteration>
+      <description>adding_two_negative_signed_fractions_works_with_first_argument_negatives</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:76</fn>
+      <id>adding_a_positive_value_to_a_larger_negative_value_keeps_result_negative</id>
+      <iteration>0</iteration>
+      <description>adding_a_positive_value_to_a_larger_negative_value_keeps_result_negative</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_polynomial.c:80</fn>
+      <id>adding_hidden_tests</id>
+      <iteration>0</iteration>
+      <description>adding_hidden_tests</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

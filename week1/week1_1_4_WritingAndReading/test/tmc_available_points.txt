@@ -1,0 +1,5 @@
+[test] [test_read_file] 4.0
+[test] [test_read_and_print_five_chars] 3.0
+[test] [test_read_and_print_two_integers] 3.0
+[test] [test_print_numbers] 2.0
+[test] [hello_world_printed_correctly] 1.0

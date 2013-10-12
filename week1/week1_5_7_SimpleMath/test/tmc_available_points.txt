@@ -1,0 +1,5 @@
+[test] [test_gcd_iterative] 7.0
+[test] [test_gcd] 6.0
+[test] [test_sum_of_characters] 5.0
+[test] [test_sum_of_rounded] 5.0
+[test] [test_sum_of_absolutes] 5.0

@@ -1,0 +1,5 @@
+[test] [test_read_msg] w6-5.0
+[test] [test_read_pixel_offset] w6-4.0
+[test] [test_read_uint32] w6-3.0
+[test] [test_extract_byte] w6-2.0
+[test] [test_read_lsb] w6-1.0

@@ -1,0 +1,16 @@
+[test] [test_merge_with_two_elemented_lists_containing_alternating_values_of_order] w2-14.0
+[test] [test_merge_with_two_elemented_identical_lists] w2-14.0
+[test] [test_merge_lists_with_one_elemented_list_and_empty_list] w2-14.0
+[test] [test_merge_lists_with_two_empty_lists] w2-14.0
+[test] [test_deletion_of_second_element_from_two_elemented_list] w2-13.0
+[test] [test_deletion_with_null_position_in_two_elemented_list] w2-13.0
+[test] [test_deletion_for_single_elemented_list] w2-13.0
+[test] [deletion_from_null_list_should_not_segfault] w2-13.0
+[test] [test_deletion_for_empty_list] w2-13.0
+[test] [test_insertion_to_tail_of_two_elemented_list] w2-12.0
+[test] [test_insertion_to_middle_of_two_elemented_list] w2-12.0
+[test] [test_insertion_to_head_of_two_elemented_list] w2-12.0
+[test] [test_insertion_to_empty_list] w2-12.0
+[test] [test_insertion_to_single_element_list_with_null_position] w2-12.0
+[test] [test_insertion_to_tail_of_single_element_list] w2-12.0
+[test] [test_create_list] w2-11.0

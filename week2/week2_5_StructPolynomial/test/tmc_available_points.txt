@@ -1,0 +1,8 @@
+[test] [adding_hidden_tests] w2-5.0
+[test] [adding_a_positive_value_to_a_larger_negative_value_keeps_result_negative] w2-5.0
+[test] [adding_two_negative_signed_fractions_works_with_first_argument_negatives] w2-5.0
+[test] [adding_two_negative_signed_fractions_with_both_argument_negatives] w2-5.0
+[test] [adding_one_fifth_to_one_tenth_should_produce_three_tenths] w2-5.0
+[test] [adding_fractions_with_zero_denominator_gives_error] w2-5.0
+[test] [adding_fractions_causes_simplification] w2-5.0
+[test] [adding_fractions_with_same_denominator_works] w2-5.0

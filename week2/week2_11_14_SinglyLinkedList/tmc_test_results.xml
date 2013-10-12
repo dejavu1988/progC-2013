@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-27 12:19:48</datetime>
+  <suite>
+    <title>LinkedList</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:50</fn>
+      <id>test_create_list</id>
+      <iteration>0</iteration>
+      <description>test_create_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:63</fn>
+      <id>test_insertion_to_tail_of_single_element_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_tail_of_single_element_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:77</fn>
+      <id>test_insertion_to_single_element_list_with_null_position</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_single_element_list_with_null_position</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:91</fn>
+      <id>test_insertion_to_empty_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_empty_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:105</fn>
+      <id>test_insertion_to_head_of_two_elemented_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_head_of_two_elemented_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:119</fn>
+      <id>test_insertion_to_middle_of_two_elemented_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_middle_of_two_elemented_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:133</fn>
+      <id>test_insertion_to_tail_of_two_elemented_list</id>
+      <iteration>0</iteration>
+      <description>test_insertion_to_tail_of_two_elemented_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:144</fn>
+      <id>test_deletion_for_empty_list</id>
+      <iteration>0</iteration>
+      <description>test_deletion_for_empty_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:150</fn>
+      <id>deletion_from_null_list_should_not_segfault</id>
+      <iteration>0</iteration>
+      <description>deletion_from_null_list_should_not_segfault</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:161</fn>
+      <id>test_deletion_for_single_elemented_list</id>
+      <iteration>0</iteration>
+      <description>test_deletion_for_single_elemented_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:174</fn>
+      <id>test_deletion_with_null_position_in_two_elemented_list</id>
+      <iteration>0</iteration>
+      <description>test_deletion_with_null_position_in_two_elemented_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:186</fn>
+      <id>test_deletion_of_second_element_from_two_elemented_list</id>
+      <iteration>0</iteration>
+      <description>test_deletion_of_second_element_from_two_elemented_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:200</fn>
+      <id>test_merge_lists_with_two_empty_lists</id>
+      <iteration>0</iteration>
+      <description>test_merge_lists_with_two_empty_lists</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:219</fn>
+      <id>test_merge_lists_with_one_elemented_list_and_empty_list</id>
+      <iteration>0</iteration>
+      <description>test_merge_lists_with_one_elemented_list_and_empty_list</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:237</fn>
+      <id>test_merge_with_two_elemented_identical_lists</id>
+      <iteration>0</iteration>
+      <description>test_merge_with_two_elemented_identical_lists</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_linkedlist.c:258</fn>
+      <id>test_merge_with_two_elemented_lists_containing_alternating_values_of_order</id>
+      <iteration>0</iteration>
+      <description>test_merge_with_two_elemented_lists_containing_alternating_values_of_order</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

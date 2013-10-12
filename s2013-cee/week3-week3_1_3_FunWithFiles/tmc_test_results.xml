@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-23 16:12:51</datetime>
+  <suite>
+    <title>FunWithFiles tests</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:32</fn>
+      <id>test_appending_hello_world_to_an_empty_file_works</id>
+      <iteration>0</iteration>
+      <description>test_appending_hello_world_to_an_empty_file_works</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:56</fn>
+      <id>test_appending_to_file_that_already_says_hello</id>
+      <iteration>0</iteration>
+      <description>test_appending_to_file_that_already_says_hello</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:86</fn>
+      <id>test_remove_empty_lines_leaves_file_with_no_empty_lines_intact</id>
+      <iteration>0</iteration>
+      <description>test_remove_empty_lines_leaves_file_with_no_empty_lines_intact</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:110</fn>
+      <id>test_remove_empty_lines_works_when_removing_first_line</id>
+      <iteration>0</iteration>
+      <description>test_remove_empty_lines_works_when_removing_first_line</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:137</fn>
+      <id>test_remove_empty_lines_works_when_removing_even_lines</id>
+      <iteration>0</iteration>
+      <description>test_remove_empty_lines_works_when_removing_even_lines</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:166</fn>
+      <id>test_remove_empty_lines_works_when_removing_odd_lines</id>
+      <iteration>0</iteration>
+      <description>test_remove_empty_lines_works_when_removing_odd_lines</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:195</fn>
+      <id>test_remove_empty_lines_works_when_removing_odd_lines_with_windows_lb</id>
+      <iteration>0</iteration>
+      <description>test_remove_empty_lines_works_when_removing_odd_lines_with_windows_lb</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:203</fn>
+      <id>test_character_counting_with_empty_file</id>
+      <iteration>0</iteration>
+      <description>test_character_counting_with_empty_file</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:210</fn>
+      <id>test_character_counting_with_file_containing_three_characters_including_newline</id>
+      <iteration>0</iteration>
+      <description>test_character_counting_with_file_containing_three_characters_including_newline</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_fun_with_files.c:217</fn>
+      <id>test_chraracter_counting_with_file_containing_6_characters_including_spaces_on_three_lines</id>
+      <iteration>0</iteration>
+      <description>test_chraracter_counting_with_file_containing_6_characters_including_spaces_on_three_lines</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

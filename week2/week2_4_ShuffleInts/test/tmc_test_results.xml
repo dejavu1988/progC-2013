@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-26 17:17:07</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_shuffle.c:55</fn>
+      <id>test_that_no_memory_errors_occur_when_shuffling</id>
+      <iteration>0</iteration>
+      <description>test_that_no_memory_errors_occur_when_shuffling</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_shuffle.c:72</fn>
+      <id>test_that_same_numbers_are_present_in_the_array_after_shuffling</id>
+      <iteration>0</iteration>
+      <description>test_that_same_numbers_are_present_in_the_array_after_shuffling</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_shuffle.c:87</fn>
+      <id>test_something_actually_changes_with_a_few_iterations</id>
+      <iteration>0</iteration>
+      <description>test_something_actually_changes_with_a_few_iterations</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_shuffle.c:101</fn>
+      <id>test_uniformity_of_shuffling</id>
+      <iteration>0</iteration>
+      <description>test_uniformity_of_shuffling</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

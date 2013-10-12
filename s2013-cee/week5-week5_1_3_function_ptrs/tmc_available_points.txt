@@ -1,0 +1,6 @@
+[test] [test_print_gen_with_characters] w5-3.0
+[test] [test_print_gen_with_integers] w5-3.0
+[test] [test_compare_gen_with_chars] w5-2.0
+[test] [test_compare_gen_with_int_arrays] w5-2.0
+[test] [test_maxi_with_negative] w5-1.0
+[test] [test_maxi_with_square_function] w5-1.-1

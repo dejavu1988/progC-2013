@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-10-11 10:16:01</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_function_ptrs.c:18</fn>
+      <id>test_maxi_with_square_function</id>
+      <iteration>0</iteration>
+      <description>test_maxi_with_square_function</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_function_ptrs.c:30</fn>
+      <id>test_maxi_with_negative</id>
+      <iteration>0</iteration>
+      <description>test_maxi_with_negative</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_function_ptrs.c:65</fn>
+      <id>test_compare_gen_with_int_arrays</id>
+      <iteration>0</iteration>
+      <description>test_compare_gen_with_int_arrays</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_function_ptrs.c:93</fn>
+      <id>test_compare_gen_with_chars</id>
+      <iteration>0</iteration>
+      <description>test_compare_gen_with_chars</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_function_ptrs.c:121</fn>
+      <id>test_print_gen_with_integers</id>
+      <iteration>0</iteration>
+      <description>test_print_gen_with_integers</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_function_ptrs.c:149</fn>
+      <id>test_print_gen_with_characters</id>
+      <iteration>0</iteration>
+      <description>test_print_gen_with_characters</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

@@ -1,0 +1,11 @@
+[test] [test_subsum_with_hidden_examples] w2-3.0
+[test] [subsum_should_work_with_another_more_complex_example] w2-3.0
+[test] [subsum_should_work_with_more_complex_example] w2-3.0
+[test] [subsum_should_return_two_when_given_an_array_with_only_zeros] w2-3.0
+[test] [subsum_inserts_to_later_middle_index_when_array_of_even_size] w2-3.0
+[test] [subsum_does_insert_a_two_in_the_array] w2-3.0
+[test] [average_works_with_four_arguments] w2-2.0
+[test] [average_works_when_it_has_negative_arguments] w2-2.0
+[test] [average_works_for_two_positive_numbers] w2-2.0
+[test] [average_works_for_one_number] w2-2.0
+[test] [save_sum_sets_value_correctly_for_z] w2-1.0

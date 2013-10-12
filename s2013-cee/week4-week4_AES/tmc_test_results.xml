@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2013-09-27 17:55:44</datetime>
+  <suite>
+    <title>Test</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:212</fn>
+      <id>test_read_block_with_exactly_128_bits</id>
+      <iteration>0</iteration>
+      <description>test_read_block_with_exactly_128_bits</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:92</fn>
+      <id>test_shift_row_with_rows_0123</id>
+      <iteration>0</iteration>
+      <description>test_shift_row_with_rows_0123</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:129</fn>
+      <id>test_inv_shift_row_with_rows_0123</id>
+      <iteration>0</iteration>
+      <description>test_inv_shift_row_with_rows_0123</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:14</fn>
+      <id>test_construct_indices_with_empty_i_and_right_equals_one</id>
+      <iteration>0</iteration>
+      <description>test_construct_indices_with_empty_i_and_right_equals_one</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:22</fn>
+      <id>test_construct_indices_with_empty_i_and_max_j</id>
+      <iteration>0</iteration>
+      <description>test_construct_indices_with_empty_i_and_max_j</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:30</fn>
+      <id>test_construct_indices_with_empty_i_and_j_1010</id>
+      <iteration>0</iteration>
+      <description>test_construct_indices_with_empty_i_and_j_1010</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:38</fn>
+      <id>test_construct_indices_with_empty_j_and_min_i</id>
+      <iteration>0</iteration>
+      <description>test_construct_indices_with_empty_j_and_min_i</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:46</fn>
+      <id>test_construct_indices_with_empty_j_and_max_i</id>
+      <iteration>0</iteration>
+      <description>test_construct_indices_with_empty_j_and_max_i</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:54</fn>
+      <id>test_construct_indices_with_max_i_and_j_1010</id>
+      <iteration>0</iteration>
+      <description>test_construct_indices_with_max_i_and_j_1010</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:224</fn>
+      <id>test_reading_sbox</id>
+      <iteration>0</iteration>
+      <description>test_reading_sbox</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:195</fn>
+      <id>test_sub_bytes_with_real_sbox</id>
+      <iteration>0</iteration>
+      <description>test_sub_bytes_with_real_sbox</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:157</fn>
+      <id>test_sub_bytes_with_state_full_of_ones_and_sbox_with_9_in_first_and_8_in_second</id>
+      <iteration>0</iteration>
+      <description>test_sub_bytes_with_state_full_of_ones_and_sbox_with_9_in_first_and_8_in_second</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:234</fn>
+      <id>test_with_example_given_by_karvi</id>
+      <iteration>0</iteration>
+      <description>test_with_example_given_by_karvi</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:241</fn>
+      <id>test_with_zero_byte_to_second_power</id>
+      <iteration>0</iteration>
+      <description>test_with_zero_byte_to_second_power</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:249</fn>
+      <id>test_with_11111111_to_second_power</id>
+      <iteration>0</iteration>
+      <description>test_with_11111111_to_second_power</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:256</fn>
+      <id>test_11111111_to_zero_power</id>
+      <iteration>0</iteration>
+      <description>test_11111111_to_zero_power</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:267</fn>
+      <id>test_with_given_example_in_polynomial_form</id>
+      <iteration>0</iteration>
+      <description>test_with_given_example_in_polynomial_form</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:274</fn>
+      <id>test_with_11111111_to_second_power_equivalent_polynomial</id>
+      <iteration>0</iteration>
+      <description>test_with_11111111_to_second_power_equivalent_polynomial</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:281</fn>
+      <id>test_with_11111111_to_zero_power_polynomial</id>
+      <iteration>0</iteration>
+      <description>test_with_11111111_to_zero_power_polynomial</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:289</fn>
+      <id>test_with_10101010_and_10101010</id>
+      <iteration>0</iteration>
+      <description>test_with_10101010_and_10101010</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:308</fn>
+      <id>test_mix_columns_unit_state</id>
+      <iteration>0</iteration>
+      <description>test_mix_columns_unit_state</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:327</fn>
+      <id>test_mix_columns_with_actual_example</id>
+      <iteration>0</iteration>
+      <description>test_mix_columns_with_actual_example</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:348</fn>
+      <id>test_inv_mix_columns_unit_state</id>
+      <iteration>0</iteration>
+      <description>test_inv_mix_columns_unit_state</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:367</fn>
+      <id>test_inv_mix_columns_with_actual_state</id>
+      <iteration>0</iteration>
+      <description>test_inv_mix_columns_with_actual_state</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:386</fn>
+      <id>test_inv_mix_columns_reverses_mix_columns</id>
+      <iteration>0</iteration>
+      <description>test_inv_mix_columns_reverses_mix_columns</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:410</fn>
+      <id>test_add_round_key_with_example</id>
+      <iteration>0</iteration>
+      <description>test_add_round_key_with_example</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_aes.c:455</fn>
+      <id>test_encrypt_decrypt</id>
+      <iteration>0</iteration>
+      <description>test_encrypt_decrypt</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.000000</duration>
+</testsuites>

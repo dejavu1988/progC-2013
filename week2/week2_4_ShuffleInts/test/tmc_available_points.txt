@@ -1,0 +1,4 @@
+[test] [test_uniformity_of_shuffling] w2-4.0
+[test] [test_something_actually_changes_with_a_few_iterations] w2-4.0
+[test] [test_that_same_numbers_are_present_in_the_array_after_shuffling] w2-4.0
+[test] [test_that_no_memory_errors_occur_when_shuffling] w2-4.0
